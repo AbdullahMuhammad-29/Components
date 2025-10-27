@@ -19,3 +19,12 @@ React 18
 Tailwind CSS 3
 Framer Motion
 Vite for fast development builds
+
+Usage Guidelines
+
+To use this React Components Library:
+Start the project with npm run dev and open it in your browser.
+Try out the buttons, cards, and modals — click and hover to see animations and effects.
+Change button types (primary, secondary, danger) to explore different styles.
+Click “Get Started” to open and close the modal.
+Adjust text, colors, or layouts easily using Tailwind CSS classes in the code.
