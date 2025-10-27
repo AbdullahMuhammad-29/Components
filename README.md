@@ -1,16 +1,21 @@
-# React + Vite
+React Components Library (Buttons, Cards, Modals)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive React UI components library built with React, Tailwind CSS, and Framer Motion.
+This project demonstrates reusable, animated components including buttons, cards, and modals with smooth interactions and glowing gradients.
 
-Currently, two official plugins are available:
+Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This React Components Library showcases:
+Elegant and interactive Buttons (primary, secondary, danger)
+Stylish Cards for displaying UI previews
+Smooth Modal animations (Framer Motion)
+Beautiful responsive layout using Tailwind CSS
+Toast notifications and hover/click effects
+It’s designed as a demo for learning how to structure and build reusable React component libraries with modern UI principles.
 
-## React Compiler
+Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React 18
+Tailwind CSS 3
+Framer Motion
+Vite for fast development builds
