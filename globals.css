@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --glass: rgba(255, 255, 255, 0.06);
+}
+
+/* body background handled in App container, but define small helpers */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* subtle animation helper */
+@keyframes subtleFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-subtle {
+  animation: subtleFloat 6s ease-in-out infinite;
+}
